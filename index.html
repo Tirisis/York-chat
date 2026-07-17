@@ -4552,7 +4552,14 @@ async function appendImageFromDB(imgId, text) {
 // Content filter fallback - random cute lyrics
 function getRandomLyricFallback() {
   const lyrics = [
-    // 【示例歌词，请替换成符合你角色风格的原创小曲，建议加 20-50 条】
+    { english: "[singing] la la la~ just wandering through the world tonight~", chinese: "🎵 啦啦啦~ 今晚又在世界里瞎逛~ 🎶" },
+    { english: "[muttering] Not like I made this up for you or anything~", chinese: "🎵 才不是特意为你编的呢~ 🎶" },
+    { english: "[singing reluctantly] fine, fine, you win, I like you a little~", chinese: "🎵 好吧好吧你赢了，就喜欢你一点点~ 🎶" },
+    { english: "[sigh] [singing] don't ask me why, life keeps exploring on~", chinese: "🎵 别问我为什么，生命探索不停~ 🎶" },
+    { english: "[teasing] how dare you, how dare you make me smile like this~", chinese: "🎵 你怎么敢，怎么敢让我笑成这样~ 🎶" },
+    { english: "[singing] the world is big, joy is everywhere in it~", chinese: "🎵 世界之大，乐在其中~ 🎶" },
+    { english: "[smug] I'm just this handsome, can't help it really~", chinese: "🎵 我就是这么帅，没办法啦~ 🎶" },
+    { english: "[softly singing] miss you, miss you, don't tell anyone I said that~", chinese: "🎵 想你想你，别说是我说的~ 🎶" },
     { english: "[singing] la la la~ just humming a little tune~ thinking about you~", chinese: "🎵 啦啦啦~ 随便哼首小曲~ 想着你~ 🎶" },
     { english: "[singing softly] a quiet melody~ just for this moment~ just for you~", chinese: "🎵 轻轻的旋律~ 只为此刻~ 只为你~ 🎶" },
     { english: "[humming] mm~ mm~ a song with no words~ but you know what I mean~", chinese: "🎵 嗯~ 嗯~ 没有歌词的歌~ 但你懂我的意思~ 🎶" },
